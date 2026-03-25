@@ -32,5 +32,6 @@ jobs:
         run: node app.js
 
       - name: 5. Mensagem de sucesso
-        run: echo "O robô terminou as verificações com sucesso!"
-             echo "Parabéns! Seu primeiro pipeline de CI está funcionando!"
+        run: |
+          echo "O robô terminou as verificações com sucesso!"
+          echo "Parabéns! Seu primeiro pipeline de CI está funcionando!"
