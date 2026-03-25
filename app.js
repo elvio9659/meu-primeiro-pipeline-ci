@@ -51,5 +51,3 @@ if (typeof module !== 'undefined' && module.exports) {
 }
 
 console.log('Aplicação carregada com sucesso!');
-
-----------------
